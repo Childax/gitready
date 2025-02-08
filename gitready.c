@@ -4,6 +4,7 @@ int main()
 {
     int x, y, sum;
     int operator;
+    int z;
 
     printf("Enter first number: \n");
     scanf("%d", &x);
