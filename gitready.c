@@ -2,13 +2,13 @@
 
 int main()
 {
-    float x, y, sum;
+    int x, y, sum;
     int operator;
 
     printf("Enter first number: \n");
-    scanf("%f", &x);
+    scanf("%d", &x);
     printf("Enter second number: \n");
-    scanf("%f", &y);
+    scanf("%d", &y);
     printf("Choose an operator: \n");
     printf("1: +\n");
     printf("2: -\n");
@@ -32,5 +32,5 @@ int main()
             break;
     }
 
-    printf("The sum is: %.2f", sum);
+    printf("The sum is: %d", sum);
 }
